@@ -1,0 +1,36 @@
+import { Translations } from './types';
+
+export const translations: Record<'en' | 'zh', Translations> = {
+  en: {
+    title: 'Ethan Nova Defense',
+    start: 'Start Game',
+    score: 'Score',
+    missiles: 'Missiles',
+    gameOver: 'Game Over',
+    youWin: 'Mission Success!',
+    playAgain: 'Play Again',
+    instructions: 'Click anywhere to intercept incoming rockets. Protect your cities!',
+    descriptionTitle: 'Game Description',
+    description: 'Ethan Nova Defense is a fast-paced arcade shooter inspired by classic missile defense games. Your mission is to protect your cities and batteries from incoming rocket attacks. Use different batteries with unique abilities to intercept threats. Collect power-ups like AMMO (B) to refill your missiles and SUGAR (S) to slow down time.',
+    close: 'Close',
+    left: 'Left',
+    middle: 'Middle',
+    right: 'Right',
+  },
+  zh: {
+    title: 'Ethan新星防御',
+    start: '开始游戏',
+    score: '得分',
+    missiles: '导弹',
+    gameOver: '游戏结束',
+    youWin: '任务成功！',
+    playAgain: '再玩一次',
+    instructions: '点击屏幕任何位置发射拦截导弹。保护你的城市！',
+    descriptionTitle: '游戏说明',
+    description: 'Ethan新星防御是一款受经典导弹防御游戏启发的快节奏街机射击游戏。你的任务是保护你的城市和炮台免受火箭袭击。利用具有独特能力的炮台来拦截威胁。收集增强道具：弹药补给(B)可补充导弹，糖果(S)可减缓时间流逝。',
+    close: '关闭',
+    left: '左侧',
+    middle: '中间',
+    right: '右侧',
+  },
+};
